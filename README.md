@@ -21,7 +21,7 @@ The configuration of A2A only requires that you edit the configure.yaml file by 
   repo: "https://github.com/firemanxbr/a2a-sample.git"
   branch: "master"
   force_clone: True
-  command: "ls -la repositories/a2a-sample/"
+  command: "ansible-playbook -vv -i 'localhost,' repositories/a2a-sample/playbook.yml"
 ```
 
 In line **1**, the ID of the aggregator is left, allowing you to add as many IDs as you need. Variables:

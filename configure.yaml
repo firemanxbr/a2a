@@ -2,4 +2,4 @@
   repo: "https://github.com/firemanxbr/a2a-sample.git"
   branch: "master"
   force_clone: True
-  command: "ls -la repositories/a2a-sample/"
+  command: "ansible-playbook -vv -i 'localhost,' repositories/a2a-sample/playbook.yml"
