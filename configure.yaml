@@ -1,0 +1,5 @@
+1:
+  repo: "https://github.com/firemanxbr/a2a-sample.git"
+  branch: "master"
+  force_clone: True
+  command: "ls -la repositories/a2a-sample/"
