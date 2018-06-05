@@ -50,7 +50,7 @@ Other actions:
 ```
 
 ### Development
-This project it's using Python3, Pipenv, and Fire. These requirements are included into [`requirements.txt`](requirements.txt)
+This project it's using Python3, Pipenv, and Clize. These requirements are included into [`requirements.txt`](requirements.txt)
 
 [**Python3**](https://www.python.org/) - will permit to explore the new resources of the Python language.
 
