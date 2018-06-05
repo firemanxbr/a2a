@@ -3,3 +3,4 @@
   branch: "master"
   force_clone: True
   command: "ansible-playbook -vv -i 'localhost,' repositories/a2a-sample/playbook.yml --private-key=~/.ssh/id_rsa"
+  
