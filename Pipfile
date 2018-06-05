@@ -13,8 +13,8 @@ name = "pypi"
 
 gitpython = "*"
 termcolor = "*"
-fire = "*"
 "ruamel.yaml" = "*"
+clize = "*"
 
 
 [requires]

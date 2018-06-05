@@ -36,10 +36,10 @@ In line **1**, the ID of the aggregator is left, allowing you to add as many IDs
 
 
 ### Development
-This project it's using Python3, Pipenv, and Fire. These requirements are included into `requirements.txt`
+This project it's using Python3, Pipenv, and Fire. These requirements are included into [`requirements.txt`](requirements.txt)
 
-**Python3** - will permit to explore the new resources of the Python language.
+[**Python3**](https://www.python.org/) - will permit to explore the new resources of the Python language.
 
-**Pipenv** - is providing the better dependence management and development environment.
+[**Pipenv**](https://github.com/pypa/pipenv) - is providing the better dependence management and development environment.
 
-**Fire** - is a CLI library to permit develop awesome CLI commands, much easier than argparser. 
+[**Clize**](https://github.com/epsy/clize) - is a CLI library to permit develop awesome CLI commands, much easier than argparser. 

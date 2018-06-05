@@ -5,15 +5,18 @@ Python Aggregator to Ansible Playbook
 import os
 import shutil
 
+from clize import run
 from git import Repo, Git
 from termcolor import colored
 
-import fire
 import ruamel.yaml
 
 
-def parameter(file):
-    ''' parameter file is mandatory to run a2a !!! '''
+def a2a(file="configure.yaml"):
+    """ Python Aggregator to Ansible Playbooks.
+    
+    :param file: parameter file, if 'None' will use the default
+    """
     try:
         data = ruamel.yaml.load(open(file), ruamel.yaml.RoundTripLoader)
         current_dir = '{0}{1}'.format(os.getcwd(), '/repositories/')
@@ -47,10 +50,5 @@ def parameter(file):
         print(colored("[ERROR] - {0}\n".format(error), 'red'))
 
 
-def main():
-    ''' Main function '''
-    fire.Fire(parameter)
-
-
 if __name__ == '__main__':
-    main()
+    run(a2a)

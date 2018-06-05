@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "63d8b5e691518468cdaacaaf09b0c6a4ee2c2a265506885c5866ac8dd1ccfac3"
+            "sha256": "a317c70ee33f789736a9e25fa98b190f772aec1cd4a0842011f88c2aa3e6f070"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,11 +16,27 @@
         ]
     },
     "default": {
-        "fire": {
+        "attrs": {
             "hashes": [
-                "sha256:c299d16064ff81cbb649b65988300d4a28b71ecfb789d1fb74d99ea98ae4d2eb"
+                "sha256:4b90b09eeeb9b88c35bc642cbac057e45a5fd85367b985bd2809c62b7b939265",
+                "sha256:e0d0eb91441a3b53dab4d9b743eafc1ac44476296a2053b6ca3af0b139faf87b"
             ],
-            "version": "==0.1.3"
+            "version": "==18.1.0"
+        },
+        "clize": {
+            "hashes": [
+                "sha256:cc41ce676a07111704059d9b4d70fba11506a4584d25878be3aa31e4d7c0ca1b",
+                "sha256:dbcfba5571dc30aaf90dc98fc279e2aab69d0f8f3665fc0394fbc10a87a2be60"
+            ],
+            "version": "==4.0.3"
+        },
+        "docutils": {
+            "hashes": [
+                "sha256:02aec4bd92ab067f6ff27a38a38a41173bf01bed8f89157768c1573f53e474a6",
+                "sha256:51e64ef2ebfb29cae1faa133b3710143496eca21c530f3f71424d77687764274",
+                "sha256:7a4bd47eaf6596e1295ecb11361139febe29b084a87bf005bf899f9a42edc3c6"
+            ],
+            "version": "==0.14"
         },
         "gitdb2": {
             "hashes": [
@@ -35,6 +51,13 @@
                 "sha256:b60b045cf64a321e5b620debb49890099fa6c7be6dfb7fb249027e5d34227301"
             ],
             "version": "==2.1.10"
+        },
+        "od": {
+            "hashes": [
+                "sha256:52d4c8dafbb274abc41e8ca4507f6fd3718d6a26dc449cb9bfb700adc43e1154",
+                "sha256:d1c94cd3af5fdb13ca27c4d3e1601c77028f36bbba9e78c324daf0c1ac06e3ab"
+            ],
+            "version": "==1.0"
         },
         "ruamel.yaml": {
             "hashes": [
@@ -57,6 +80,13 @@
                 "sha256:f5ef82b8efe378de6abb7042263d6f407b0760ad923ed477fa26007b1fa0e563"
             ],
             "version": "==0.15.37"
+        },
+        "sigtools": {
+            "hashes": [
+                "sha256:1b890f22ece64bc47d3d4e84c950581e83917794a6cf1548698145590e221aff",
+                "sha256:d36942c94d4bd46bb180df99d0e7248b17a7a85234e64979a42fa84a0e5329db"
+            ],
+            "version": "==2.0.2"
         },
         "six": {
             "hashes": [
