@@ -21,7 +21,7 @@ The configuration of A2A only requires that you edit the configure.yaml file by 
   repo: "https://github.com/firemanxbr/a2a-sample.git"
   branch: "master"
   force_clone: True
-  command: "ansible-playbook -vv -i 'localhost,' repositories/a2a-sample/playbook.yml"
+  command: "ansible-playbook -vv -i 'localhost,' repositories/a2a-sample/playbook.yml --private-key=~/.ssh/id_rsa"
 ```
 
 In line **1**, the ID of the aggregator is left, allowing you to add as many IDs as you need. Variables:
@@ -32,7 +32,7 @@ In line **1**, the ID of the aggregator is left, allowing you to add as many IDs
 
 * **force_clone:** ​​will erase the destination directory of your repository and only after deleting will clone, if it is not necessary to delete the directory and it is empty, the value can be "False". If the directory already exists it will generate an error.
 
-* **command:** In this parameter the value will be your ansible command or any other shell command that you want to run in this exact sequence.
+* **command:** In this parameter the value will be your ansible command or any other shell command that you want to run in this exact sequence. 
 
 
 ### Development
