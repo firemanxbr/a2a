@@ -34,6 +34,20 @@ In line **1**, the ID of the aggregator is left, allowing you to add as many IDs
 
 * **command:** In this parameter the value will be your ansible command or any other shell command that you want to run in this exact sequence. 
 
+The a2a tool is simple to use as any other command you have in your system.
+
+```
+$ ./a2a --help
+Usage: ./a2a [file]
+
+Python Aggregator to Ansible Playbooks.
+
+Arguments:
+  file         parameter file, if 'None' will use the default (default: configure.yaml)
+
+Other actions:
+  -h, --help   Show the help
+```
 
 ### Development
 This project it's using Python3, Pipenv, and Fire. These requirements are included into [`requirements.txt`](requirements.txt)
